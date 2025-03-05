@@ -54,7 +54,7 @@ class SSHTunnel:
                 continue
 
             try:
-                transport.request_port_forward("0.0.0.0", self.remote_port)
+                transport.request_port_forward("127.0.0.1", self.remote_port)
                 print(
                     f"Tunnel established: remote {self.ssh_host}:{self.remote_port} -> local 127.0.0.1:{self.local_port}")
 
