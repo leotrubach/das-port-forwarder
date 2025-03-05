@@ -1,0 +1,9 @@
+dist/
+
+build/
+
+.venv/
+
+.idea/
+
+.env
